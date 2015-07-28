@@ -3,16 +3,12 @@ Rails.application.routes.draw do
 
   root 'welcome#index'
 
-  get 'users/index'
-
-  get 'users/new'
-
-  get 'users/create'
-
   get '/login', to: 'sessions#new'
   resources :sessions, only: [:new, :create, :destroy]
 
-  resource :users
+  resources :users
+
+  get '/new', to: 'users#new'
 
 
 
