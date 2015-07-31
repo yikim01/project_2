@@ -30,6 +30,41 @@
 }
 
 footer {
-  position: absolute;
+  text-align: center;
+}
+
+.footer-group {
+  vertical-align: top;
   height: 100px;
 }
+
+.footer-group li {
+  display: inline-block;
+  border: solid black 2px;
+  margin: 0px;
+  padding: 5px;
+}
+
+.footer-group ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-limiter div {
+  display: inline-block;
+  border: solid block 2px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
