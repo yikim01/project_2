@@ -30,3 +30,6 @@
   [] I want the user to be able connect the item to their picture/ else they will not be able to post
   [] I want the store items to populate to a page where the users are wearing the same item
 
+#### Heroku links
+https://intense-stream-4885.herokuapp.com/
+https://fast-depths-9778.herokuapp.com/
